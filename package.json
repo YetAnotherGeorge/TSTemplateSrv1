@@ -1,0 +1,15 @@
+{
+  "name": "tstemplatesrv1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev --files --transpile-only --respawn --project tsconfig.json .\\src\\main.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
